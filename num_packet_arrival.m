@@ -1,3 +1,5 @@
+% Given some arrival rates, it calculates the probability with which <=L packets arrive to the links
+
 clc;
 clear all;
 close all;
