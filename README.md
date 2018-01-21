@@ -17,3 +17,18 @@ The algorithm looks at the existing packets waiting in the queue. It then finds 
 
 # 3/4 Competitive Ratio Algorithm
 This algorithm is an improvement over the previous ones. It achieves 75% of the optimal weighted packet transmission. Please see [the paper](http://www.columbia.edu/~js1353/pubs/jlss.pdf) for details.
+
+
+# Code description
+Each code is developed in MATLAB. Each of them are standalone, meaning they can execute independently of others. Explanatory comments are made at the beginning of each code. Please follow the comments to understand the purpose of that particular code.
+
+# Input
+Each code requires the following inputs- packet arrival probability (lambda), deadline (tao), and class weight (w). Some sample inputs are already given there for understanding
+
+# Output
+Given the input, the code prints fraction of (weighted) packets transmitted, number of packets transmitted and evolved deficit.
+It also plots the fraction as a function of links. Another interesting plot shows the evolution of deficit as a function of time.
+
+Please see the [plots](https://drive.google.com/drive/folders/1lHjWMucX65sm5jy9EcQiDkIk0ojpWFxz?usp=sharing) we obtained in our experiment.
+
+
