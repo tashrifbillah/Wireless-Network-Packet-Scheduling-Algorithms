@@ -1,3 +1,9 @@
+% There is a frame with tao_max time slots
+% Packet arrives on the first time slot in a frame with some probability
+% No packet arrives in the middle of the frame
+% Whatever packet arrives at the beginning of the frame, has to be scheduled
+% by the end of the frame
+
 clc;
 clear all;
 close all;
